@@ -8,7 +8,7 @@ package Ordenamientos;
 import java.util.Scanner;
 
 public class Burbuja {
-
+ // Ya tu sabe que lo que
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
@@ -28,7 +28,7 @@ public class Burbuja {
 		
 		for(int i=0;i<nElementos-1;i++) {
 			for(int j=0;j<nElementos-1;j++) {
-				if(array[j] >array[j+1]) {					// Si numeroActual> numeroSiguiente
+				if(array[j] >array[j+1]) {			// Si numeroActual> numeroSiguiente
 						aux = array[j];
 						array[j] = array [j+1];
 						array [j+1] = aux;
