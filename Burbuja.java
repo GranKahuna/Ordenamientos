@@ -8,7 +8,7 @@ package Ordenamientos;
 import java.util.Scanner;
 
 public class Burbuja {
- // Ya tu sabe que lo que
+ 
 	public static void main(String[] args) {
 		
 		Scanner entrada = new Scanner(System.in);
